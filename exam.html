@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT Examination</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="exam-header">
+        <div>
+            <h2>CBT EXAMINATION</h2>
+            <p id="studentInfo"></p>
+        </div>
+        <div class="timer-box">
+            <span>⏱️ Time Left</span>
+            <strong id="timer">30:00</strong>
+        </div>
+    </header>
+    <!-- MAIN EXAM -->
+    <main class="exam-container">
+        <!-- QUESTIONS -->
+        <section class="question-area">
+            <!-- QUESTION 1 -->
+            <div class="question active">
+                <h3>Question 1 of 20</h3>
+                <p>What does HTML stand for?</p>
+                <label>
+                    <input type="radio" name="q1" value="correct">
+                    A. Hyper Text Markup Language
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="wrong">
+                    B. High Text Machine Language
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="wrong">
+                    C. Hyperlink Text Management Language
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="wrong">
+                    D. Home Tool Markup Language
+                </label>
+            </div>
+            <!-- QUESTION 2 -->
+            <div class="question">
+                <h3>Question 2 of 20</h3>
+                <p>Which tag is used to create the largest heading?</p>
+                <label>
+                    <input type="radio" name="q2" value="wrong">
+                    A. &lt;heading&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="wrong">
+                    B. &lt;h6&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="correct">
+                    C. &lt;h1&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="wrong">
+                    D. &lt;head&gt;
+                </label>
+            </div>
+            <!-- QUESTION 3 -->
+            <div class="question">
+                <h3>Question 3 of 20</h3>
+                <p>Which HTML tag is used to create a hyperlink?</p>
+                <label>
+                    <input type="radio" name="q3" value="wrong">
+                    A. &lt;link&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="correct">
+                    B. &lt;a&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="wrong">
+                    C. &lt;href&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="wrong">
+                    D. &lt;url&gt;
+                </label>
+            </div>
+            <!-- QUESTION 4 -->
+            <div class="question">
+                <h3>Question 4 of 20</h3>
+                <p>Which attribute specifies the destination of a link?</p>
+                <label>
+                    <input type="radio" name="q4" value="wrong">
+                    A. src
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="wrong">
+                    B. link
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="correct">
+                    C. href
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="wrong">
+                    D. target
+                </label>
+            </div>
+            <!-- QUESTION 5 -->
+            <div class="question">
+                <h3>Question 5 of 20</h3>
+                <p>Which tag is used to display an image?</p>
+                <label>
+                    <input type="radio" name="q5" value="wrong">
+                    A. &lt;picture&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="wrong">
+                    B. &lt;image&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="correct">
+                    C. &lt;img&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="wrong">
+                    D. &lt;src&gt;
+                </label>
+            </div>
+            <!-- QUESTION 6 -->
+            <div class="question">
+                <h3>Question 6 of 20</h3>
+                <p>What is the purpose of the alt attribute in an image?</p>
+                <label>
+                    <input type="radio" name="q6" value="wrong">
+                    A. To change the image size
+                </label>
+                <label>
+                    <input type="radio" name="q6" value="correct">
+                    B. To provide alternative text for the image
+                </label>
+                <label>
+                    <input type="radio" name="q6" value="wrong">
+                    C. To add a border
+                </label>
+                <label>
+                    <input type="radio" name="q6" value="wrong">
+                    D. To center the image
+                </label>
+            </div>
+            <!-- QUESTION 7 -->
+            <div class="question">
+                <h3>Question 7 of 20</h3>
+                <p>Which element is used to create an unordered list?</p>
+                <label>
+                    <input type="radio" name="q7" value="wrong">
+                    A. &lt;ol&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q7" value="wrong">
+                    B. &lt;li&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q7" value="correct">
+                    C. &lt;ul&gt;
+                </label>
+                <label>
+                    <input type="radio" name="q7" value="wrong">
+                    D. &lt;list&gt;
+                </label>
+            </div>
+            <!-- QUESTION 8 -->
+            <div class="question">
+                <h3>Question 8 of 20</h3>
+                <p>What does CSS stand for?</p>
+                <label>
+                    <input type="radio" name="q8" value="wrong">
+                    A. Computer Style Sheets
+                </label>
+                <label>
+                    <input type="radio" name="q8" value="correct">
+                    B. Cascading Style Sheets
+                </label>
+                <label>
+                    <input type="radio" name="q8" value="wrong">
+                    C. Creative Style System
+                </label>
+                <label>
+                    <input type="radio" name="q8" value="wrong">
+                    D. Colorful Style Sheets
+                </label>
+            </div>
+            <!-- QUESTION 9 -->
+            <div class="question">
+                <h3>Question 9 of 20</h3>
+                <p>Which CSS property changes the text color?</p>
+                <label>
+                    <input type="radio" name="q9" value="wrong">
+                    A. font-color
+                </label>
+                <label>
+                    <input type="radio" name="q9" value="wrong">
+                    B. text-color
+                </label>
+                <label>
+                    <input type="radio" name="q9" value="correct">
+                    C. color
+                </label>
+                <label>
+                    <input type="radio" name="q9" value="wrong">
+                    D. foreground
+                </label>
+            </div>
+            <!-- QUESTION 10 -->
+            <div class="question">
+                <h3>Question 10 of 20</h3>
+                <p>Which property is used to change the background color?</p>
+                <label>
+                    <input type="radio" name="q10" value="correct">
+                    A. background-color
+                </label>
+                <label>
+                    <input type="radio" name="q10" value="wrong">
+                    B. bg-color
+                </label>
+                <label>
+                    <input type="radio" name="q10" value="wrong">
+                    C. color-background
+                </label>
+                <label>
+                    <input type="radio" name="q10" value="wrong">
+                    D. background
+                </label>
+            </div>
+            <!-- QUESTION 11 -->
+            <div class="question">
+                <h3>Question 11 of 20</h3>
+                <p>Which CSS selector targets an element with the class box?</p>
+                <label>
+                    <input type="radio" name="q11" value="wrong">
+                    A. #box
+                </label>
+                <label>
+                    <input type="radio" name="q11" value="correct">
+                    B. .box
+                </label>
+                <label>
+                    <input type="radio" name="q11" value="wrong">
+                    C. box
+                </label>
+                <label>
+                    <input type="radio" name="q11" value="wrong">
+                    D. *box
+                </label>
+            </div>
+            <!-- QUESTION 12 -->
+            <div class="question">
+                <h3>Question 12 of 20</h3>
+                <p>Which CSS property is used to make text larger?</p>
+                <label>
+                    <input type="radio" name="q12" value="wrong">
+                    A. text-size
+                </label>
+                <label>
+                    <input type="radio" name="q12" value="wrong">
+                    B. font-style
+                </label>
+                <label>
+                    <input type="radio" name="q12" value="correct">
+                    C. font-size
+                </label>
+                <label>
+                    <input type="radio" name="q12" value="wrong">
+                    D. text-large
+                </label>
+            </div>
+            <!-- QUESTION 13 -->
+            <div class="question">
+                <h3>Question 13 of 20</h3>
+                <p>What does display: flex do?</p>
+                <label>
+                    <input type="radio" name="q13" value="wrong">
+                    A. Makes an element invisible
+                </label>
+                <label>
+                    <input type="radio" name="q13" value="correct">
+                    B. Creates a flexible layout system
+                </label>
+                <label>
+                    <input type="radio" name="q13" value="wrong">
+                    C. Makes text bold
+                </label>
+                <label>
+                    <input type="radio" name="q13" value="wrong">
+                    D. Changes the background
+                </label>
+            </div>
+            <!-- QUESTION 14 -->
+            <div class="question">
+                <h3>Question 14 of 20</h3>
+                <p>Which property controls the space inside an element's border?</p>
+                <label>
+                    <input type="radio" name="q14" value="wrong">
+                    A. margin
+                </label>
+                <label>
+                    <input type="radio" name="q14" value="correct">
+                    B. padding
+                </label>
+                <label>
+                    <input type="radio" name="q14" value="wrong">
+                    C. spacing
+                </label>
+                <label>
+                    <input type="radio" name="q14" value="wrong">
+                    D. border-spacing
+                </label>
+            </div>
+            <!-- QUESTION 15 -->
+            <div class="question">
+                <h3>Question 15 of 20</h3>
+                <p>What is JavaScript mainly used for on a webpage?</p>
+                <label>
+                    <input type="radio" name="q15" value="wrong">
+                    A. Creating the basic structure
+                </label>
+                <label>
+                    <input type="radio" name="q15" value="wrong">
+                    B. Styling the webpage
+                </label>
+                <label>
+                    <input type="radio" name="q15" value="correct">
+                    C. Adding interactivity and behavior
+                </label>
+                <label>
+                    <input type="radio" name="q15" value="wrong">
+                    D. Creating images
+                </label>
+            </div>
+            <!-- QUESTION 16 -->
+            <div class="question">
+                <h3>Question 16 of 20</h3>
+                <p>Which keyword can be used to declare a variable that can be reassigned?</p>
+                <label>
+                    <input type="radio" name="q16" value="correct">
+                    A. let
+                </label>
+                <label>
+                    <input type="radio" name="q16" value="wrong">
+                    B. fixed
+                </label>
+                <label>
+                    <input type="radio" name="q16" value="wrong">
+                    C. constant
+                </label>
+                <label>
+                    <input type="radio" name="q16" value="wrong">
+                    D. static
+                </label>
+            </div>
+            <!-- QUESTION 17 -->
+            <div class="question">
+                <h3>Question 17 of 20</h3>
+                <p>Which symbol is used for strict equality in JavaScript?</p>
+                <label>
+                    <input type="radio" name="q17" value="wrong">
+                    A. =
+                </label>
+                <label>
+                    <input type="radio" name="q17" value="wrong">
+                    B. ==
+                </label>
+                <label>
+                    <input type="radio" name="q17" value="correct">
+                    C. ===
+                </label>
+                <label>
+                    <input type="radio" name="q17" value="wrong">
+                    D. !=
+                </label>
+            </div>
+            <!-- QUESTION 18 -->
+            <div class="question">
+                <h3>Question 18 of 20</h3>
+                <p>What will this code output?</p>
+                <pre>
+let x = 5;
+let y = 3;
+console.log(x + y);
+                </pre>
+                <label>
+                    <input type="radio" name="q18" value="wrong">
+                    A. 2
+                </label>
+                <label>
+                    <input type="radio" name="q18" value="correct">
+                    B. 8
+                </label>
+                <label>
+                    <input type="radio" name="q18" value="wrong">
+                    C. 15
+                </label>
+                <label>
+                    <input type="radio" name="q18" value="wrong">
+                    D. 53
+                </label>
+            </div>
+            <!-- QUESTION 19 -->
+            <div class="question">
+                <h3>Question 19 of 20</h3>
+                <p>Which method is commonly used to select an HTML element by its ID?</p>
+                <label>
+                    <input type="radio" name="q19" value="wrong">
+                    A. document.getElement()
+                </label>
+                <label>
+                    <input type="radio" name="q19" value="correct">
+                    B. document.getElementById()
+                </label>
+                <label>
+                    <input type="radio" name="q19" value="wrong">
+                    C. document.selectId()
+                </label>
+                <label>
+                    <input type="radio" name="q19" value="wrong">
+                    D. document.findId()
+                </label>
+            </div>
+            <!-- QUESTION 20 -->
+            <div class="question">
+                <h3>Question 20 of 20</h3>
+                <p>What will this code do?</p>
+                <pre>
+let name = "Judah";
+document.getElementById("demo").textContent = name;
+                </pre>
+                <label>
+                    <input type="radio" name="q20" value="wrong">
+                    A. Deletes the element
+                </label>
+                <label>
+                    <input type="radio" name="q20" value="correct">
+                    B. Changes the element's text to "Judah"
+                </label>
+                <label>
+                    <input type="radio" name="q20" value="wrong">
+                    C. Changes the element's color
+                </label>
+                <label>
+                    <input type="radio" name="q20" value="wrong">
+                    D. Creates a new HTML page
+                </label>
+            </div>
+            <!-- PREVIOUS / NEXT -->
+            <div class="navigation">
+                <button type="button" id="previousBtn">
+                    ← Previous
+                </button>
+                <button type="button" id="nextBtn">
+                    Next →
+                </button>
+            </div>
+        </section>
+        <!-- QUESTION PALETTE -->
+        <aside class="question-panel">
+            <h3>Questions</h3>
+            <p class="palette-info">
+                🟢 Answered
+            </p>
+            <div id="questionNumbers">
+                <button class="number active">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="number">10</button>
+                <button class="number">11</button>
+                <button class="number">12</button>
+                <button class="number">13</button>
+                <button class="number">14</button>
+                <button class="number">15</button>
+                <button class="number">16</button>
+                <button class="number">17</button>
+                <button class="number">18</button>
+                <button class="number">19</button>
+                <button class="number">20</button>
+            </div>
+            <button id="submitBtn">
+                📊 SUBMIT EXAM
+            </button>
+        </aside>
+    </main>
+    <script src="exam.js"></script>
+</body>
+</html>

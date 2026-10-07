@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT Registration</title>
+    <link rel="stylesheet" href="cbt.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>CBT EXAMINATION</h1>
+        <p class="subtitle">Student Registration</p>
+
+        <form id="registrationForm">
+
+            <label for="name">First Name</label>
+            <input type="text" id="name" placeholder="Enter your first name" required><br>
+
+            <label for="middleName">Middle Name</label>
+            <input type="text" id="middleName" placeholder="Enter your middle name"><br>
+
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" placeholder="Enter your surname" required><br>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required><br>
+        
+
+            <label for="school">School Graduated From</label>
+            <input type="text" id="school" placeholder="Enter your school" required><br>
+
+            <label for="year">Year Graduated</label>
+            <select id="year" required>
+                <option value="">Select year</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+            </select><br>
+
+            <label for="course">Course You Want to Study</label>
+            <input type="text" id="course" placeholder="e.g. Computer Science" required><br><br>
+
+            <button type="submit">START EXAM</button>
+
+        </form>
+
+    </div>
+
+    <script src="cbt.js"></script>
+
+</body>
+</html>
