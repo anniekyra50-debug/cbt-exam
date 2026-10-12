@@ -82,17 +82,17 @@ answers.forEach(function(answer) {
 // ==========================================
 // TIMER
 // ==========================================
-let timeLeft = 10 * 10;
+let timeLeft = 10 * 60;
 const timer = document.getElementById("timer");
 const countdown = setInterval(function() {
-    const minutes = Math.floor(timeLeft / 10);
-    const seconds = timeLeft % 10;
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
     timer.textContent =
         String(minutes).padStart(2, "0") +
         ":" +
         String(seconds).padStart(2, "0");
     // Last minute warning
-    if (timeLeft <= 10) {
+    if (timeLeft <= 60) {
         timer.classList.add("danger");
     }
     timeLeft--;
