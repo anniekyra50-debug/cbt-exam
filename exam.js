@@ -82,17 +82,17 @@ answers.forEach(function(answer) {
 // ==========================================
 // TIMER
 // ==========================================
-let timeLeft = 10 * 30;
+let timeLeft = 10 * 10;
 const timer = document.getElementById("timer");
 const countdown = setInterval(function() {
-    const minutes = Math.floor(timeLeft / 30);
-    const seconds = timeLeft % 30;
+    const minutes = Math.floor(timeLeft / 10);
+    const seconds = timeLeft % 10;
     timer.textContent =
         String(minutes).padStart(2, "0") +
         ":" +
         String(seconds).padStart(2, "0");
     // Last minute warning
-    if (timeLeft <= 30) {
+    if (timeLeft <= 10) {
         timer.classList.add("danger");
     }
     timeLeft--;
@@ -145,6 +145,7 @@ function submitExam(timeUp = false) {
         "Score: " + score + "/" + totalQuestions + "\n" +
         "Percentage: " + percentage + "%"
     );
+    location.reload();
 }
 // Submit button
 document.getElementById("submitBtn").addEventListener(
